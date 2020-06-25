@@ -1,8 +1,6 @@
 <link href="{{('https://fonts.googleapis.com/css?family=Salsa')}}" rel="stylesheet">
 <link href="{{('../css/categories.css')}}" rel="stylesheet">
 <link href="{{('../css/bootstrap.css')}}" rel="stylesheet">
-<link rel="stylesheet" href="{{ ('../boostrap-3/css/bootstrap.min.css') }}">
-<link rel="stylesheet" href="{{ ('../css/xproject.css') }}">
 
 @extends('layouts.app')
 
@@ -28,7 +26,7 @@
             <p>&nbsp</p>
         </div>
 
-        <div class="panel-collapse collapse panel-primary" id="primary">
+        <div class="panel panel-primary" id="primary">
             <!-- default panel content -->
         <div class="panel-heading">Computer Ethics</div>
           <div class="panel-body">        
