@@ -24,7 +24,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button> -->
-            <a class="navbar-brand" href="#">Computer Based Instruction</a>
+            <a class="navbar-brand" href="#" style="font-size: 1.5em;">Computer Based Instruction</a>
           </div>
           <br><br><br>
           <div class="text-left">
