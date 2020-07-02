@@ -11,39 +11,38 @@
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
   <script src="{{ ('https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js') }}"></script>
   <script src="{{ ('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js') }}"></script>
-
-
 </head>
 
 <body>
-
-
-
   <header>
-
-
     <div class="banner">
-
-
       <nav class="navbar navbar-default">
         <div class="container">
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
-            </button>
+            </button> -->
             <a class="navbar-brand" href="#">Computer Based Instruction</a>
-            <hr><br>
-            <div class="links">
-              <a href="{{route('examinfo.create')}}" style="background-color: #ff9f3b;padding: 10px;margin: 10px;color: black;border-radius: 5px;">Teacher's Corner</a>
-            </div>
           </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
+          <br><br><br>
+          <div class="text-left">
+            <button type="button" style="background-color: #ff9f3b" class="btn">
+              <a href="{{route('examinfo.create')}}" style="color:black">Teacher's Corner</a>
+            </button>
+            <button type="button" class="btn btn-light" style="float: right">
+              <a href="{{ route('register') }}" style="color:blue"><strong> Sign up</strong></a>
+            </button>
+          </div>
+          <!-- <div class="text-right">
+            <button type="button" class="btn btn-light"><a href="{{ route('register') }}" style="color:blue"><strong> Sign up</strong></a></button>
+          </div> -->
+          <!-- <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
               <li class="navsign"><a href="{{ route('register') }}" class="navsign1" style="color:blue">Sign up</a></li>
             </ul>
-          </div>
+          </div> -->
         </div>
       </nav>
 
@@ -53,29 +52,14 @@
         </a>
       </p>
 
-      <div class="row">
-
-        <div class="col-md-6"></div>
-        <div class="col-md-5">
-
-          <ul class="nav navbar-nav navbar-center">
-          <button type="button" class="btn btn-light"><a href="{{ route('login') }}" style="color:Green"><strong> Log in</strong></a></button>
-            <!-- <li class="navsign"><a href="{{ route('login') }}" class="navsign1" style="color:Green"><strong> Log in</strong></a></li> -->
-          </ul>
-        </div>
-        <div class="col-md-5"></div>
+      <div class="text-center">
+        <button type="button" class="btn btn-light"><a href="{{ route('login') }}" style="color:Green"><strong> Log in</strong></a></button>
+        <!-- <li class="navsign"><a href="{{ route('login') }}" class="navsign1" style="color:Green"><strong> Log in</strong></a></li> -->
       </div>
     </div>
 
-
-
-
-
-
-
   </header>
   <!--End of header-->
-
 
 </body>
 <!---->
@@ -94,8 +78,5 @@
         }
     });
 }); -->
-
-
-
 
 </html>
