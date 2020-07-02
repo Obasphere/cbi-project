@@ -8,11 +8,11 @@
 		<h1>Check Your Result</h1>
 		<div class="form-group">
 			<label class="col-form-label" for="formGroupExampleInput">Student ID</label>
-			<input type="text" name="student_id" class="form-control " id="formGroupExampleInput" placeholder="example: 090591013">
+			<input type="text" name="student_id" class="form-control " id="formGroupExampleInput" placeholder="example: 090591013 (Integer Only)">
 		</div>
 		<div class="form-group">
-			<label class="col-form-label" for="formGroupExampleInput2">Test Code</label>
-			<input type="text" name="exam_code" class="form-control" id="formGroupExampleInput2" placeholder="The Test Code issued by your Teacher">
+			<label class="col-form-label" for="formGroupExampleInput2">Test PIN</label>
+			<input type="text" name="exam_code" class="form-control" id="formGroupExampleInput2" placeholder="The Test PIN issued by your Teacher">
 		</div>
 		<button type="Submit" class="btn btn-success btn-block">Check</button>
 	</div>

@@ -31,7 +31,7 @@
 		    <input type="text" name="answer" class="form-control" id="formGroupExampleInput2" required>
 		  </div>
 		  <div class="form-group">
-		    <label class="col-form-label" for="formGroupExampleInput2">Test Code</label>
+		    <label class="col-form-label" for="formGroupExampleInput2">Test PIN</label>
 		    <input type="hidden" name="quizid" class="form-control" id="formGroupExampleInput2" value="{{$examinfo->id}}" readonly>
 		  </div>
 		  <button type="Submit" class="btn btn-success btn-block">Submit</button>
