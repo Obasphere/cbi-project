@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>CBI</title>
   <meta charset="utf-8">
@@ -13,55 +14,58 @@
 
 
 </head>
+
 <body>
 
 
 
-<header>
+  <header>
 
 
-  <div class="banner">
+    <div class="banner">
 
 
-    <nav class="navbar navbar-default">
-                <div class="container">
-                  <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Computer Based Instruction</a><hr><br>
-                        <div class="links">
-                        <a href="{{route('examinfo.create')}}" style="background-color: #ff9f3b;padding: 10px;margin: 10px;color: black;border-radius: 5px;">Teacher's Corner</a>                   
-                        </div>
-                  </div>
-                  <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav navbar-right">
-                      <li class="navsign" ><a href="{{ route('register') }}" class="navsign1" style="color:blue">Sign up</a></li>
-                    </ul>
-                  </div>
-                </div>
-    </nav>
-
-                   <p class="banner-text2">
-                      <a href="" class="typewrite" data-period="2000" data-type='[ " Computer Based Instruction platform for learning", "Learn at Distance.", "Lifelong Learning.", "Growth of non-traditional Students." ]'>
-                        <span class="wrap"></span>
-                      </a>
-                 </p>
-
-            <div class="row">
-
-              <div class="col-md-6"></div>
-                <div class="col-md-5">
-
-                    <ul class="nav navbar-nav navbar">
-                      <li class="navsign" ><a href="{{ route('login') }}" class="navsign1" style="color:Green"><strong>  Log in</strong></a></li>
-                    </ul>
-                </div>
-              <div class="col-md-5"></div>
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Computer Based Instruction</a>
+            <hr><br>
+            <div class="links">
+              <a href="{{route('examinfo.create')}}" style="background-color: #ff9f3b;padding: 10px;margin: 10px;color: black;border-radius: 5px;">Teacher's Corner</a>
             </div>
-  </div>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="navsign"><a href="{{ route('register') }}" class="navsign1" style="color:blue">Sign up</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <p class="banner-text2">
+        <a href="" class="typewrite" data-period="2000" data-type='[ " Computer Based Instruction platform for learning", "Learn at Distance.", "Lifelong Learning.", "Growth of non-traditional Students." ]'>
+          <span class="wrap"></span>
+        </a>
+      </p>
+
+      <div class="row">
+
+        <div class="col-md-6"></div>
+        <div class="col-md-5">
+
+          <ul class="nav navbar-nav navbar-center">
+          <button type="button" class="btn btn-light"><a href="{{ route('login') }}" style="color:Green"><strong> Log in</strong></a></button>
+            <!-- <li class="navsign"><a href="{{ route('login') }}" class="navsign1" style="color:Green"><strong> Log in</strong></a></li> -->
+          </ul>
+        </div>
+        <div class="col-md-5"></div>
+      </div>
+    </div>
 
 
 
@@ -69,7 +73,8 @@
 
 
 
-</header><!--End of header-->
+  </header>
+  <!--End of header-->
 
 
 </body>
