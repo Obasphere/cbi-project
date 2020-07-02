@@ -43,7 +43,7 @@
             allowfullscreen>
           </iframe> -->
                 <div class="embed-responsive embed-responsive-4by3">
-                    <video class="embed-responsive-item" src="{{URL::asset("video/Computer Ethics.mp4")}}"></video>
+                    <video class="embed-responsive-item" src="{{URL::asset("video/Computer Ethics.mp4")}}" controls type="video/mp4" allowfullscreen></video>
                 </div>
                 <!-- <video width="420" height="315" frameborder="0" controls style="display:block; margin:0 auto;">
               <source src="{{URL::asset("video/Computer Ethics.mp4")}}" type="video/mp4" allowfullscreen>
@@ -116,7 +116,7 @@
                 <source src="{{URL::asset("video/Internet.mp4")}}" type="video/mp4" allowfullscreen>
             </video> -->
                 <div class="embed-responsive embed-responsive-4by3">
-                    <video class="embed-responsive-item" src="{{URL::asset("video/Internet.mp4")}}" allowfullscreen></video>
+                    <video class="embed-responsive-item" src="{{URL::asset("video/Internet.mp4")}}" controls type="video/mp4" allowfullscreen></video>
                 </div>
                 <h4><b>Definition of Internet</b></h4>
 
@@ -233,7 +233,7 @@
                 <source src="{{URL::asset("video/Safety Measures.mp4")}}" type="video/mp4" allowfullscreen>
             </video> -->
                 <div class="embed-responsive embed-responsive-4by3">
-                    <video class="embed-responsive-item" src="{{URL::asset("video/Safety Measures.mp4")}}" allowfullscreen></video>
+                    <video class="embed-responsive-item" src="{{URL::asset("video/Safety Measures.mp4")}}" controls type="video/mp4" allowfullscreen></video>
                 </div>
                 <br>
                 <p>There are safety measures that the users of computers need to take in order to enjoy the use of computers. There are:<br>
